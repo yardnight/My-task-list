@@ -74,7 +74,7 @@ function App() {
   return (
     <Context.Provider value={{removeTodo}}>
       <div className ='wrapper'>
-        <h1 className ='header-title'>React Tutorial</h1>
+        <h1 className ='header-title'>My task list</h1>
         <Modal/>
         <React.Suspense fallback={<p>Loading...</p>}>
           <AddTodo onCreate ={addTodo} />

@@ -1,0 +1,28 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+.modal-window {
+    padding: 2rem;
+    width: 500px;
+    border-radius: 5px;
+    background: #fff;
+    height: 200px;
+}
+
+.modal-botton {
+    background-color: #fff;
+    border-radius: 5%;
+    color: rgb(47, 220, 139);
+    
+    border-style: solid;
+    border-color: rgb(47, 220, 139);
+    /* box-shadow: none; */
+  }

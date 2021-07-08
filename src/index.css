@@ -1,0 +1,143 @@
+body {
+  margin: 0 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Maine Zone */
+.wrapper {
+  padding: 1rem 1rem 1rem 1rem;
+
+  margin: 100px auto;
+  width: 600px;
+  background: no-repeat url("./background.png");
+  box-shadow: 5px 2px 15px #e87e7e;
+  border-radius: 5px;
+
+}
+.header-title {
+  margin-top: 0;
+  padding: 0;
+  line-height: 25px;
+  color: rgb(96, 130, 238)
+}
+/* button style */
+.rm {
+  background-color: rgb(252, 188, 26);
+  border-radius: 20%;
+  color: white;
+  border: none;
+
+}
+.size-botton {
+  width:auto;
+  height: 2rem
+}
+
+.add-botton {
+  background-color: #fff;
+  border-radius: 5%;
+  color: rgb(47, 220, 139);
+  margin-left: 0.15rem;
+  border-style: solid;
+  border-color: rgb(47, 220, 139);
+  /* box-shadow: none; */
+}
+
+
+p {
+  color: rgb(96, 130, 238) 
+}
+
+/* Line-through */
+.done {
+  text-decoration: line-through;
+}
+
+/* Loader styles */
+.lds-spinner {
+  color: official;
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-spinner div {
+  transform-origin: 40px 40px;
+  animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 37px;
+  width: 6px;
+  height: 18px;
+  border-radius: 20%;
+  background: rgb(255, 193, 36);
+}
+.lds-spinner div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+}
+@keyframes lds-spinner {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
